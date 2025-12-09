@@ -1,7 +1,6 @@
 <h1 align="center">📚 Sistema de Consulta de Livros, Autores e Gêneros</h1>
 
 Este projeto consiste em uma API desenvolvida para fins de estudo e prática, permitindo a consulta e gerenciamento de **livros**, **autores** e **gêneros** através de rotas REST.  
-A aplicação foi construída utilizando **Node.js**, **Express**, **Sequelize** e **SQLite**, oferecendo uma base sólida para aprendizado de desenvolvimento backend.
 
 ---
 
