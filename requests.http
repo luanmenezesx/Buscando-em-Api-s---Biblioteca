@@ -1,0 +1,57 @@
+//Postar Livro
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "O Incrivel mundo de Sara",
+    "personagemPrincipal": "Sara",
+    "publishedYear": 2025
+}
+
+//Mostrar Livro por Título, Personagem Principal e Idade do Livro
+###
+GET http://localhost:3000/books?title=O Incrivel mundo de Sara&personagemPrincipal=Sara&publishedYear=2025
+
+//Quantidade de livros por página
+###
+GET http://localhost:3000/books?limit=30&page=2
+
+//Postar Gênero
+###
+POST http://localhost:3000/genres
+Content-Type: application/json
+
+{
+    "type": "Ação",
+    "country": "Brasil",
+    "creationdate": "Século 18"
+}
+
+//Mostrar Gênero
+###
+GET  http://localhost:3000/genres
+
+//Mostrar Gênero por Tipo, País e Data de Criação
+###
+GET http://localhost:3000/genres?type=Ficção Científica&country=Estados Unidos&creationdate=Século 20
+
+// Postar Autor
+###
+POST http://localhost:3000/authors
+Content-Type: application/json
+
+{
+    "name": "Robert Kiyosaki",
+    "country": "Estados Unidos",
+    "age": 77   
+}
+
+//Mostrar Autor
+###
+GET http://localhost:3000/authors
+
+//Mostrar Autor por Nome, Idade e País
+###
+GET http://localhost:3000/authors?name=Robert Kiyosaki&country=Estados Unidos&age=77
+
+
