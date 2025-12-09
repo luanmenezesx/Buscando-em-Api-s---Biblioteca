@@ -117,7 +117,5 @@ curl -X POST http://localhost:3000/books \
 * Envie o objeto da requisição
 
 ## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT.
-Consulte o arquivo LICENSE
- para mais informações.
+Este projeto está licenciado sob a Licença MIT.  
+Consulte o arquivo [LICENSE](./LICENSE) para mais informações.
