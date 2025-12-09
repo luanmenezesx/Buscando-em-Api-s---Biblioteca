@@ -102,9 +102,22 @@ http://localhost:3000
 ```
 
 ## 📤 Como Realizar as Requests
-✔️ Via URL
+### ✔️ Via URL
 ```bash
 curl -X POST http://localhost:3000/books \
 -H "Content-Type: application/json" \
 -d '{"title":"O Incrivel mundo de Sara","personagemPrincipal":"Sara","publishedYear":2025}'
 ```
+
+### ✔️ Via Postman / Insomnia
+* Crie nova requisição
+* Escolha GET ou POST
+* Insira a URL
+* No caso de POST → Body → Raw → JSON
+* Envie o objeto da requisição
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT.
+Consulte o arquivo LICENSE
+ para mais informações.
